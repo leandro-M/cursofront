@@ -1,0 +1,14 @@
+.banner-wrap {
+    height: 250px;
+    background-image: url('../img/banner/bg_banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    > .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+}

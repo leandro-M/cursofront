@@ -1,0 +1,22 @@
+.item-banner {
+    width: 180px;
+    height: 37px;
+
+    text-align: center;
+    background-color: rgba(#fff, 0.85);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: $color-primary;
+    font-family: $regular;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    border-radius: 0 8px;
+
+    &:nth-child(even) {
+        border-radius: 8px 0;
+    }
+}

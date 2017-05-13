@@ -1,0 +1,16 @@
+.title-group {
+    font-family: $regular;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+
+    > .title {
+        font-size: 50px;
+        letter-spacing: 20px;
+        line-height: 90%;
+    }
+
+    > .sub-title {
+        font-size: 26px;
+    }
+}
