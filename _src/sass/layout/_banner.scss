@@ -5,10 +5,23 @@
     background-size: cover;
     background-repeat: no-repeat;
 
+    position: relative;
+
+    &:after {
+        content: "";
+    }
+
     > .container {
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 100%;
+
+        > .left,
+        > .right {
+            > .item-banner {
+                margin-bottom: 20px;
+            }
+        }
     }
 }
