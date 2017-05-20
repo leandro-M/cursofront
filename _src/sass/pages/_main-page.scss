@@ -1,0 +1,44 @@
+.main-page {
+    display: flex;
+    padding: 60px 0;
+
+    > .container {
+        display: flex;
+        justify-content: space-between;
+
+        > .left,
+        > .right  {
+            display: flex;
+
+            .image {
+                display: block;
+                width: 100%;
+
+                > .photo {
+                    width: 100%;
+                }
+            }
+        }
+
+        > .left {
+            flex-basis: 750px;
+        }
+
+        > .right {
+            flex-basis: 400px;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .image {
+                display: block;
+                width: 100%;
+
+                > .photo {
+                    width: auto;
+                    max-width: 100%;
+                    max-height: 190px;
+                }
+            }
+        }
+    }
+}
